@@ -31,5 +31,11 @@ public class MyFileWriter {
             e.printStackTrace();
         }
 
+        File directory = new File("directory");
+        if (!directory.exists()) {
+            directory.mkdir();
+        }
+        
+
     }
 }
