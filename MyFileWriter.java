@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 
 public class MyFileWriter {
     public static void main(String[] args) {
-        String data = "Hello, World!";
+        String data = "SMELlY SMELLY SMELLY SMELLY WOOOOO";
         String fileName1 = "example.txt";
         String hiddenFileName2 = ".example2.txt";
         String hiddenFolderPath = ".hidden";
